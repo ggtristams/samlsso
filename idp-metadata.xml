@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://guest.login.utexas.edu/idp">
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" errorURL="https://guest.login.utexas.edu/simplesaml/module.php/core/error/ERRORURL_CODE?ts=ERRORURL_TS&amp;rp=ERRORURL_RP&amp;tid=ERRORURL_TID&amp;ctx=ERRORURL_CTX">
+    <md:Extensions>
+      <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+        <mdui:DisplayName xml:lang="en">UT Guest Authentication IDP</mdui:DisplayName>
+        <mdui:Description xml:lang="en">Login with UT Guest Authentication IdP</mdui:Description>
+        <mdui:Logo width="80" height="60">https://path/to/logo.png</mdui:Logo>
+      </mdui:UIInfo>
+    </md:Extensions>
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFHTCCA4WgAwIBAgIUdE0QA1Hh/CcMZsdvTrZGgUsh5uEwDQYJKoZIhvcNAQELBQAwgZ0xCzAJBgNVBAYTAlVTMQ4wDAYDVQQIDAVUZXhhczEPMA0GA1UEBwwGQXVzdGluMSowKAYDVQQKDCFUaGUgVW5pdmVyc2l0eSBvZiBUZXhhcyBhdCBBdXN0aW4xDDAKBgNVBAsMA0lUUzEMMAoGA1UEAwwDSUFNMSUwIwYJKoZIhvcNAQkBFhZjYTMyMzY1QGVpZC51dGV4YXMuZWR1MB4XDTIzMDgxNjIxMDQyN1oXDTMzMDgxNTIxMDQyN1owgZ0xCzAJBgNVBAYTAlVTMQ4wDAYDVQQIDAVUZXhhczEPMA0GA1UEBwwGQXVzdGluMSowKAYDVQQKDCFUaGUgVW5pdmVyc2l0eSBvZiBUZXhhcyBhdCBBdXN0aW4xDDAKBgNVBAsMA0lUUzEMMAoGA1UEAwwDSUFNMSUwIwYJKoZIhvcNAQkBFhZjYTMyMzY1QGVpZC51dGV4YXMuZWR1MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAmFpgdO70MsAjMPqoBXTiWpL4suOR4tdiUmBZQNCwj+yoRL6Ojdi5jtcxSgwWL+mVowwpPK9RCNxoe+RGN9/hclMUeP0nSFKY6wIbg5cUC51lEHdPl7t0gjdGAqGGFFnJxCiCo0dlhWD6PG/MjRTOiKHsIOLZsaVP6xJW8Y+1TjVNaNCDgTuAMcPZ/2R22JBuhbr8YbE7omUcEjxMrMsWJfXZwTv7P8qdSIf9GuB2U7ktjzvg1VvZE5lIh5uh19mvKDrcEfeJr/qSY8mxkIr3CpqoGp9oXJP9VGcHTrJNJvh+bFuifzfQj7UaQSqmC3MfwtLrPl7f6yJxx21PRQwtItqLgZ8YgqDSL7ezYUVxT6iVCaYHSzqWAODJSYFt1SpswFI38FvUckY7zmJZ6LQcjrJA79/aIc2XSl1LJ80/KSc7kZZj0IBMvfhmDKHiUpUPweZg9u5riIbOlgK+jvwSz3ECm+xn/2Q9LiacTIW3Lo7SH4/9Vw0vlR4hVepWh/wbAgMBAAGjUzBRMB0GA1UdDgQWBBTJUxpiFZO9aM9UHNMuEAjLzbfiGDAfBgNVHSMEGDAWgBTJUxpiFZO9aM9UHNMuEAjLzbfiGDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBgQBu2+YvW/0G4e4kH4iOGmbba1b9PBs4j+ahYZ8JQ+Rdi4/ywblqsNnfZZ9Rz8SVDxyidy1kX5cs7ElR3NUE8Agu0R7gSgzAieBGnlCh6r+y6Stnwl0hoHKu02WDJJ8NSPQxUNvGe0suS0jopvCK85wzCxHA5H7mILe/XxWDYgyU6eint/bqRPjLAIUbIxmCsECVhd5CpZoF88I/MvAtLP83jbhl/dzo+oCtks0LD5w8o62W8v8f2t5dkTMhlKmuCgOVupP9JnHcM9zAPcmZG2U/ybwK3jc6IiVRvedEn+cIEY1x34E40/iDgrC8dELVL7zzG40FyuwRZmrF+e+wuEFsI5QBEWhMMFVwxG/fPC2nSjjDL3iq0OftVM5rpD/JxhTwU3dCfcTLzL/8mQsX+t9y/950ZpWLK2iQMmzUH5OTBHlRs7Lv2QMjXf7thJsRi6pLqZcp8NOSI9b2/gRB+0aV8R9TKauyx6teiPc7KAK+9ikD7xb+6U2ZRAwm76MurcA=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFHTCCA4WgAwIBAgIUdE0QA1Hh/CcMZsdvTrZGgUsh5uEwDQYJKoZIhvcNAQELBQAwgZ0xCzAJBgNVBAYTAlVTMQ4wDAYDVQQIDAVUZXhhczEPMA0GA1UEBwwGQXVzdGluMSowKAYDVQQKDCFUaGUgVW5pdmVyc2l0eSBvZiBUZXhhcyBhdCBBdXN0aW4xDDAKBgNVBAsMA0lUUzEMMAoGA1UEAwwDSUFNMSUwIwYJKoZIhvcNAQkBFhZjYTMyMzY1QGVpZC51dGV4YXMuZWR1MB4XDTIzMDgxNjIxMDQyN1oXDTMzMDgxNTIxMDQyN1owgZ0xCzAJBgNVBAYTAlVTMQ4wDAYDVQQIDAVUZXhhczEPMA0GA1UEBwwGQXVzdGluMSowKAYDVQQKDCFUaGUgVW5pdmVyc2l0eSBvZiBUZXhhcyBhdCBBdXN0aW4xDDAKBgNVBAsMA0lUUzEMMAoGA1UEAwwDSUFNMSUwIwYJKoZIhvcNAQkBFhZjYTMyMzY1QGVpZC51dGV4YXMuZWR1MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAmFpgdO70MsAjMPqoBXTiWpL4suOR4tdiUmBZQNCwj+yoRL6Ojdi5jtcxSgwWL+mVowwpPK9RCNxoe+RGN9/hclMUeP0nSFKY6wIbg5cUC51lEHdPl7t0gjdGAqGGFFnJxCiCo0dlhWD6PG/MjRTOiKHsIOLZsaVP6xJW8Y+1TjVNaNCDgTuAMcPZ/2R22JBuhbr8YbE7omUcEjxMrMsWJfXZwTv7P8qdSIf9GuB2U7ktjzvg1VvZE5lIh5uh19mvKDrcEfeJr/qSY8mxkIr3CpqoGp9oXJP9VGcHTrJNJvh+bFuifzfQj7UaQSqmC3MfwtLrPl7f6yJxx21PRQwtItqLgZ8YgqDSL7ezYUVxT6iVCaYHSzqWAODJSYFt1SpswFI38FvUckY7zmJZ6LQcjrJA79/aIc2XSl1LJ80/KSc7kZZj0IBMvfhmDKHiUpUPweZg9u5riIbOlgK+jvwSz3ECm+xn/2Q9LiacTIW3Lo7SH4/9Vw0vlR4hVepWh/wbAgMBAAGjUzBRMB0GA1UdDgQWBBTJUxpiFZO9aM9UHNMuEAjLzbfiGDAfBgNVHSMEGDAWgBTJUxpiFZO9aM9UHNMuEAjLzbfiGDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBgQBu2+YvW/0G4e4kH4iOGmbba1b9PBs4j+ahYZ8JQ+Rdi4/ywblqsNnfZZ9Rz8SVDxyidy1kX5cs7ElR3NUE8Agu0R7gSgzAieBGnlCh6r+y6Stnwl0hoHKu02WDJJ8NSPQxUNvGe0suS0jopvCK85wzCxHA5H7mILe/XxWDYgyU6eint/bqRPjLAIUbIxmCsECVhd5CpZoF88I/MvAtLP83jbhl/dzo+oCtks0LD5w8o62W8v8f2t5dkTMhlKmuCgOVupP9JnHcM9zAPcmZG2U/ybwK3jc6IiVRvedEn+cIEY1x34E40/iDgrC8dELVL7zzG40FyuwRZmrF+e+wuEFsI5QBEWhMMFVwxG/fPC2nSjjDL3iq0OftVM5rpD/JxhTwU3dCfcTLzL/8mQsX+t9y/950ZpWLK2iQMmzUH5OTBHlRs7Lv2QMjXf7thJsRi6pLqZcp8NOSI9b2/gRB+0aV8R9TKauyx6teiPc7KAK+9ikD7xb+6U2ZRAwm76MurcA=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://guest.login.utexas.edu/simplesaml/module.php/saml/idp/singleLogout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://guest.login.utexas.edu/simplesaml/module.php/saml/idp/singleSignOnService"/>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://guest.login.utexas.edu/simplesaml/module.php/saml/idp/singleSignOnService"/>
+  </md:IDPSSODescriptor>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>Administrator</md:GivenName>
+    <md:EmailAddress>mailto:guestauthn-internal@utlists.utexas.edu</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
